@@ -55,10 +55,6 @@ Top-K Image Retrieval
 ## 📂 Dataset
 
 - A **subset of images** was used from the **Stanford Online Products Dataset**  
-- The dataset contains product images organized by category, making it suitable for similarity and retrieval tasks  
-- Images were organized into a folder-based structure to enable automatic label assignment using `ImageFolder`  
-- Labels are used **only for evaluation**, not for training  
-
 🔗 **Dataset Link:**  
 https://cvgl.stanford.edu/projects/lifted_struct/
 
