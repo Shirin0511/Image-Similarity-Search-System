@@ -8,7 +8,7 @@ This project demonstrates a **real-world computer vision retrieval pipeline** co
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 Image similarity answers the question:
 
@@ -21,7 +21,7 @@ This project addresses the image similarity problem by:
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 Dataset Images
 ↓
@@ -40,7 +40,7 @@ Top-K Image Retrieval
 
 ---
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - Python  
 - PyTorch  
@@ -52,14 +52,14 @@ Top-K Image Retrieval
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - A **subset of images** was used from the **Stanford Online Products Dataset**
 - **Dataset Link:**  https://cvgl.stanford.edu/projects/lifted_struct/
 
 ---
 
-## 🧠 Model Details
+## Model Details
 
 - **Backbone:** ResNet-50 (pretrained on ImageNet)  
 - **Usage:** Feature extractor (final classification layer removed)  
@@ -70,7 +70,7 @@ The pretrained model is used **purely for inference**, leveraging learned visual
 
 ---
 
-## 🔍 Similarity Search
+## Similarity Search
 
 - **Similarity Measure:** Cosine similarity  
 - **Implementation:** FAISS `IndexFlatIP`  
@@ -78,7 +78,7 @@ The pretrained model is used **purely for inference**, leveraging learned visual
 
 ---
 
-## 📊 Evaluation Strategy
+## Evaluation Strategy
 
 Since image similarity is inherently subjective, evaluation is performed using:
 
@@ -87,7 +87,7 @@ Since image similarity is inherently subjective, evaluation is performed using:
 
 ---
 
-## 🖼️ Sample Output
+## Sample Output
 
 [ Query Image ] → [ Rank 1 ] [ Rank 2 ] [ Rank 3 ] [ Rank 4 ] [ Rank 5 ] [ Rank 6 ] [ Rank 7 ] [ Rank 8 ] [ Rank 9 ] [ Rank 10 ] 
 
@@ -96,7 +96,7 @@ The retrieved images show strong **visual and semantic similarity** to the query
 
 ---
 
-## 🔮 Possible Enhancements
+## Possible Enhancements
 
 - Replace ResNet-50 with Vision Transformers (ViT)  
 - Fine-tune embeddings using contrastive or triplet loss  
