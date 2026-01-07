@@ -54,9 +54,8 @@ Top-K Image Retrieval
 
 ## 📂 Dataset
 
-- A **subset of images** was used from the **Stanford Online Products Dataset**  
-🔗 **Dataset Link:**  
-https://cvgl.stanford.edu/projects/lifted_struct/
+- A **subset of images** was used from the **Stanford Online Products Dataset**
+- **Dataset Link:**  https://cvgl.stanford.edu/projects/lifted_struct/
 
 ---
 
