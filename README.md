@@ -23,6 +23,7 @@ This project addresses the image similarity problem by:
 
 ## System Architecture
 
+```text
 Dataset Images
 ↓
 Preprocessing (Resize, Normalize)
@@ -36,7 +37,7 @@ L2 Normalization
 FAISS Similarity Index
 ↓
 Top-K Image Retrieval
-
+```
 
 ---
 
